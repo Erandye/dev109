@@ -5,7 +5,7 @@
             
 h1{
 	color: #0d5c4f;  
-	font-family: 'GlacialIndifferenceRegular';
+	font-family: 'GlacialIndifferenceRegular', verdana, sans-serif;
         font-weight: normal;
         font-style: normal}
 			
@@ -14,7 +14,7 @@ body {
 	margin: 0 auto;
         background-image: url("https://cdn.pixabay.com/photo/2020/03/17/14/59/illustration-4940622_1280.jpg");
         background-repeat: no-repeat;
-        background-attachment: fixed}
+        background-attachment: repeat}
 			
 #content {
 	overflow: auto;}
