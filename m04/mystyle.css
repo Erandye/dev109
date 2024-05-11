@@ -14,7 +14,7 @@ body {
 	margin: 0 auto;
         background-image: url("https://cdn.pixabay.com/photo/2020/03/17/14/59/illustration-4940622_1280.jpg");
         background-repeat: no-repeat;
-        background-attachment: repeat}
+        background-attachment: fixed}
 			
 #content {
 	overflow: auto;}
