@@ -1,28 +1,66 @@
-			* {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;}
-			body {
-				width: 90%;
-				margin: 0 auto;}
-			#content {
-				overflow: auto;}
-			#nav, #feature, #footer {
-				margin: 1%;}
-			.column1, .column2, .column3 {
-				width: 31.3%;
-				float: left;
-				margin: 1%;
-			}
-			.column3 {
-				margin-right: 0%;}
-			li {
-				display: inline;
-				padding: 0.5em;}
-			#nav, #footer {
-				background-color: #efefef;
-				padding: 0.5em 0;}
-			#feature, .article {
-				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;}
+* {
+	font-family: 'GlacialIndifferenceRegular', Verdana, sans-serif;
+	color: white;
+	text-align: center;}
+            
+h1{
+	color: white;  
+	font-family: 'GlacialIndifferenceRegular', Verdana, sans-serif;
+        font-weight: normal;
+        font-style: normal}
+			
+body {
+	width: 90%;
+	margin: 0 auto;
+        background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed}
+			
+#content {
+	overflow: auto;}
+			
+#feature {
+	margin: 1%;
+        background-color: #b0b898}
+            
+#feature {
+        background-color: #b0b898;
+        background-image: url("https://cdn.pixabay.com/photo/2024/03/13/00/24/bird-8629779_1280.png");
+        background-size:contain;
+        background-position: right;
+        background-repeat:no-repeat;}
+      
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;}
+      
+.column1 {
+	margin-right: 0;
+        background-color: #778a51}      
+      
+.column2 {
+	margin-right: 0;
+        background-color: #5e7039}
+      
+.column3 {
+	margin-right: 0;
+        background-color: #3d4a23}
+			
+li {
+	display: inline;
+	padding: 0.5em;}
+      
+#nav {
+	background-color: #703904;
+	padding: 0.5em 0;
+        margin: 1%;}
+      
+#footer {
+	background-color: #0d5c4f;
+	padding: 0.5em 0;
+        margin: 1%}
+      
+#feature, .article {
+	height: 10em;
+        margin-bottom: 1em;}
