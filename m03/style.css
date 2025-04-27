@@ -1,14 +1,21 @@
+@font-face {
+    font-family: 'DancingScriptRegular';
+        src: url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
 body {
 	font-family: DancingScriptRegular, Arial, sans-serif;
 	color: #665544;
 	padding: 0 15% 0 15%;
 }
 
-h1, h2 {
+h1 {
 	padding: 12px;
 	line-height: 2em;
 	text-align:center;
-	color:blue;
+	color: blue ;
 	font-family:'DancingScriptRegular‘;
 	font-size: 400%;
 }
@@ -22,19 +29,13 @@ p {
 	font-family: 'DancingScriptRegular';
 	font-weight: normal;
 	font-style: normal;
-	font-size:200%;
+	font-size: 200%;
 }
 
 a, a:hover, a:visited {
 	color: #665544;
 }
+
 i {
 	color:darkgreen;
 }
-
-@font-face {
-    font-family: 'DancingScriptRegular';
-        src: url('/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-      }
